@@ -1,2 +1,4 @@
-# plotly-deployment
-Belly Button Biodiversity an interactive dashboard on the web using Plotly.js
+# Plotly Deployment
+
+Belly Button Biodiversity an interactive dashboard using Plotly.js
+
