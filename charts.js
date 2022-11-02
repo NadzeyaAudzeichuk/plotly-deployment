@@ -88,13 +88,16 @@ function buildCharts(sample) {
       y: yticks,
       type: "bar",
       orientation: "h",
+      marker: {
+        color: "rgb(9, 16, 12)"
+      },
       text: otu_labels.slice(0,10).reverse()
     }];
 
    
     // Create the layout for the bar chart. 
      var barLayout = {
-      title: "Top 10 Bacteria Cultures Found"
+      title: "<b>Top 10 Bacteria Cultures Found</b>"
     };
 
     // Plot the bar chart. 
@@ -117,7 +120,7 @@ function buildCharts(sample) {
 
     // Create the layout for the bubble chart.
     var bubbleLayout = {
-      title: "Bacteria Cultures Per Sample",
+      title: "<b>Bacteria Cultures Per Sample</b>",
       xaxis: {title: "OTU ID"},
       hovermode: "closest"
     };
